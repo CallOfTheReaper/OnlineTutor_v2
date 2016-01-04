@@ -1,0 +1,361 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+
+<!-- Include meta tag to ensure proper rendering and touch zooming -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Include jQuery Mobile stylesheets -->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+
+<!-- Include the jQuery library -->
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include the jQuery Mobile library -->
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<!-- Custom Style -->
+<link rel="stylesheet" href="css/mystyle.css">
+
+<title>Online Tutor</title>
+
+</head>
+
+<body>
+
+<!-- Home -->
+<div data-role="page" id="home">
+
+<!-- Header -->
+<div data-role="header" data-id="head1" style="overflow:hidden;">
+    <h1><img src="imgs/logo.png" width="100px"></h1>
+</div>
+<!-- /Header -->
+
+<div role="main" class="ui-content">
+	<div class="ui-grid-b homegrid">
+		<div class="ui-block-a"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-01.png"></a></div></div>
+		<div class="ui-block-b"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-02.png"></a></div></div>
+		<div class="ui-block-c"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-03.png"></a></div></div>
+		<div class="ui-block-a"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-04.png"></a></div></div>
+		<div class="ui-block-b"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-05.png"></a></div></div>
+		<div class="ui-block-c"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-06.png"></a></div></div>
+		<div class="ui-block-a"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-07.png"></a></div></div>
+		<div class="ui-block-b"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-08.png"></a></div></div>
+		<div class="ui-block-c"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-09.png"></a></div></div>
+		<div class="ui-block-a"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-10.png"></a></div></div>
+		<div class="ui-block-b"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-11.png"></a></div></div>
+		<div class="ui-block-c"><div class="ui-bar ui-bar-a"><a href="#level"><img src="imgs/subjects/subject-12.png"></a></div></div>
+	</div><!-- /grid-a -->
+</div>
+
+
+<!--Navigation-->
+<div data-role="footer" data-position="fixed" data-id="nav1" class="myfooter" data-tap-toggle="false">
+    <div data-role="navbar">
+        <div class="mynav">
+            <div><a href="index.html" rel="external"><img src="imgs/icons/books_a.png"></a></div>
+            <div><a href="calendar.html" rel="external"><img src="imgs/icons/calendar.png"></a></div>
+            <div><a href="account.html" rel="external"><img src="imgs/icons/user.png"></a></div>
+            <div><a href="settings.html" rel="external"><img src="imgs/icons/settings.png"></a></div>
+        </div>
+    </div>
+</div>
+<!--/Navigation-->
+
+</div>
+<!-- /Home -->
+
+<!-- Level -->
+<div data-role="page" id="level">
+
+<!-- Header -->
+<div data-role="header" data-id="head1" style="overflow:hidden;">
+    <h1><img src="imgs/logo.png" width="100px"></h1>
+    <a href="#" data-icon="back" data-iconpos="notext" class="ui-btn-left" data-rel="back"></a>
+</div>
+<!-- /Header -->
+
+<div role="main" class="ui-content">
+    <div data-role="controlgroup">
+        <a href="#tutors" class="ui-btn ui-shadow ui-corner-all">Beginner</a>
+        <a href="#tutors" class="ui-btn ui-shadow ui-corner-all">Intermediate</a>
+        <a href="#tutors" class="ui-btn ui-shadow ui-corner-all">Advanced</a>
+    </div>
+</div>
+
+
+<!--Navigation-->
+<div data-role="footer" data-position="fixed" data-id="nav1" class="myfooter" data-tap-toggle="false">
+    <div data-role="navbar">
+        <div class="mynav">
+            <div><a href="index.html" rel="external"><img src="imgs/icons/books_a.png"></a></div>
+            <div><a href="calendar.html" rel="external"><img src="imgs/icons/calendar.png"></a></div>
+            <div><a href="account.html" rel="external"><img src="imgs/icons/user.png"></a></div>
+            <div><a href="settings.html" rel="external"><img src="imgs/icons/settings.png"></a></div>
+        </div>
+    </div>
+</div>
+<!--/Navigation-->
+
+</div>
+<!-- /Level -->
+
+<!-- Tutors Search -->
+<div data-role="page" id="tutors">
+
+<!-- Header -->
+<div data-role="header" data-id="head1" style="overflow:hidden;">
+    <h1><img src="imgs/logo.png" width="100px"></h1>
+    <a href="#" data-icon="back" data-iconpos="notext" class="ui-btn-left" data-rel="back"></a>
+</div>
+<!-- /Header -->
+
+<div role="main" class="ui-content">
+
+<ul data-role="listview" data-filter="true" data-filter-placeholder="Filter by name..." data-filter-theme="a" data-inset="true">
+    <li><a href="#tutor">Ms Online Tutor</a></li>
+    <li><a href="#yoda">Master Yoda</a></li>
+    <li><a href="#tutor">Anthony Friel</a></li>
+    <li><a href="#tutor">Owen Gallagher</a></li>
+    <li><a href="#tutor">Brendan Muller</a></li>
+    <li><a href="#tutor">Odyssefs Effraimidis</a></li>
+    <li><a href="#tutor">Arindam Bhaduri</a></li>
+    <li><a href="#tutor">Georgina Jennsen</a></li>
+    <li><a href="#tutor">Vasileios Paliktzoglou</a></li>
+    <li><a href="#tutor">Anne Roberts</a></li>
+    <li><a href="#tutor">Jennifer McWatt</a></li>
+</ul>
+
+</div>
+
+
+<!--Navigation-->
+<div data-role="footer" data-position="fixed" data-id="nav1" class="myfooter" data-tap-toggle="false">
+    <div data-role="navbar">
+        <div class="mynav">
+            <div><a href="index.html" rel="external"><img src="imgs/icons/books.png"></a></div>
+            <div><a href="calendar.html" rel="external"><img src="imgs/icons/calendar.png"></a></div>
+            <div><a href="account.html" rel="external"><img src="imgs/icons/user.png"></a></div>
+            <div><a href="settings.html" rel="external"><img src="imgs/icons/settings.png"></a></div>
+        </div>
+    </div>
+</div>
+<!--/Navigation-->
+
+</div>
+<!-- /Tutors Search -->
+
+<!-- Tutor -->
+<div data-role="page" id="tutor">
+
+<!-- Header -->
+<div data-role="header" data-id="head1" style="overflow:hidden;">
+    <h1><img src="imgs/logo.png" width="100px"></h1>
+    <a href="#" data-icon="back" data-iconpos="notext" class="ui-btn-left" data-rel="back"></a>
+</div>
+<!-- /Header -->
+
+<img src="imgs/avatar_f.png" width="100%" height="auto">
+
+
+
+<div data-role="tabs" id="tabs" class="mytab">
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#one" data-ajax="false" class="ui-btn-active nofocus">Qualifications</a></li>
+            <li><a href="#two" data-ajax="false" class="nofocus">Book</a></li>
+            <li><a href="#three" data-ajax="false" class="nofocus">Review</a></li>
+        </ul>
+    </div>
+    
+    <div id="one">
+        <ul data-role="listview" data-inset="true" class="ui-btn-active">
+            <li>Masters in business management</a></li>
+            <li>CFA</li>
+            <li>CPA</li>
+            <li>ACCA</li>
+            <li>Intermediate design and publishing skills</li>
+        </ul>
+    </div>
+    <div id="two" class="ui-body-d ui-content">
+    	<h3>Tuition Fees: <b style="color:#e9483b;">BD5</b> per hour</h3>
+    	<h4>Book a meeting with this tutor</h4>
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date" value="">
+            <label for="slider">Tuition Hours:</label>
+            <input type="range" name="slider" id="slider" value="1" min="1" max="6">
+            <label for="file">File* (Optional):</label>
+            <input type="file" name="file" id="file" value="">
+            <div class="ui-field-contain">
+                <label for="select-native-fc">Meeting Platform:</label>
+                <select name="select-native-fc" id="select-native-fc">
+                <option value="small">Skype</option>
+                <option value="medium">Face to face</option>
+                </select>
+            </div>
+            <h6>*You can upload a file related to your subject so the tutor can have a look, Max file size 5MB</h6>
+            <a href="#payment" class="ui-btn" data-transition="pop">Schedule a meeting</a>
+    </div>
+    <div id="three" class="ui-body-d ui-content">
+    	<p>Write a review to this tutor to help them improve their teaching methods</p>
+            <form>
+                <label for="textarea-1">Review:</label>
+                <textarea name="textarea-1" id="textarea-1"></textarea>
+            </form>
+            <a href="#review" class="ui-btn" data-transition="pop">Submit review</a>
+    </div>
+    
+</div>
+
+
+
+
+<!--Navigation-->
+<div data-role="footer" data-position="fixed" data-id="nav1" class="myfooter" data-tap-toggle="false">
+    <div data-role="navbar">
+        <div class="mynav">
+            <div><a href="index.html" rel="external"><img src="imgs/icons/books.png"></a></div>
+            <div><a href="calendar.html" rel="external"><img src="imgs/icons/calendar.png"></a></div>
+            <div><a href="account.html" rel="external"><img src="imgs/icons/user.png"></a></div>
+            <div><a href="settings.html" rel="external"><img src="imgs/icons/settings.png"></a></div>
+        </div>
+    </div>
+</div>
+<!--/Navigation-->
+
+</div>
+<!-- /Tutor -->
+
+<!-- Tutor -->
+<div data-role="page" id="yoda">
+
+<!-- Header -->
+<div data-role="header" data-id="head1" style="overflow:hidden;">
+    <h1><img src="imgs/logo.png" width="100px"></h1>
+    <a href="#" data-icon="back" data-iconpos="notext" class="ui-btn-left" data-rel="back"></a>
+</div>
+<!-- /Header -->
+
+<img src="imgs/yoda.png" width="100%" height="auto">
+
+
+
+<div data-role="tabs" id="tabs" class="mytab">
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#one" data-ajax="false" class="ui-btn-active nofocus">Qualifications</a></li>
+            <li><a href="#two" data-ajax="false" class="nofocus">Book</a></li>
+            <li><a href="#three" data-ajax="false" class="nofocus">Review</a></li>
+        </ul>
+    </div>
+    
+    <div id="one">
+        <ul data-role="listview" data-inset="true" class="ui-btn-active">
+            <li>Jedi Master</a></li>
+            <li>Uses the force to lift X-Wings</li>
+            <li>Very Short</li>
+            <li>Good Teacher</li>
+            <li>Broken English</li>
+        </ul>
+    </div>
+    <div id="two" class="ui-body-d ui-content">
+    	<h3>Tuition Fees: <b style="color:#e9483b;">Free</b></h3>
+    	<h4>Book a meeting with this tutor</h4>
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date" value="">
+            <label for="slider">Tuition Hours:</label>
+            <input type="range" name="slider" id="slider" value="1" min="1" max="6">
+            <label for="file">File* (Optional):</label>
+            <input type="file" name="file" id="file" value="">
+            <div class="ui-field-contain">
+                <label for="select-native-fc">Meeting Platform:</label>
+                <select name="select-native-fc" id="select-native-fc">
+                <option value="small">Face to face</option>
+                <option value="medium">Force Telepathy</option>
+                </select>
+            </div>
+            <h6>*You can upload a file related to your subject so the tutor can have a look, Max file size 5MB</h6>
+            <a href="#payment" class="ui-btn" data-transition="pop">Schedule a meeting</a>
+    </div>
+    <div id="three" class="ui-body-d ui-content">
+    	<p>Write a review to this tutor to help them improve their teaching methods</p>
+            <form>
+                <label for="textarea-1">Review:</label>
+                <textarea name="textarea-1" id="textarea-1"></textarea>
+            </form>
+            <a href="#review" class="ui-btn" data-transition="pop">Submit review</a>
+    </div>
+    
+</div>
+
+
+
+
+<!--Navigation-->
+<div data-role="footer" data-position="fixed" data-id="nav1" class="myfooter" data-tap-toggle="false">
+    <div data-role="navbar">
+        <div class="mynav">
+            <div><a href="index.html" rel="external"><img src="imgs/icons/books.png"></a></div>
+            <div><a href="calendar.html" rel="external"><img src="imgs/icons/calendar.png"></a></div>
+            <div><a href="account.html" rel="external"><img src="imgs/icons/user.png"></a></div>
+            <div><a href="settings.html" rel="external"><img src="imgs/icons/settings.png"></a></div>
+        </div>
+    </div>
+</div>
+<!--/Navigation-->
+
+</div>
+<!-- /Tutor -->
+
+<!-- Payment -->
+<div data-role="dialog" id="payment">
+
+    <div data-role="header" role="banner" class="ui-header ui-bar-a">
+    	<h1 class="ui-title" role="heading" aria-level="1">Payment</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+        <input type="text" name="text-basic" id="text-basic" value="" placeholder="Full Name">
+        <input type="text" name="text-basic" id="text-basic" value="" placeholder="Card Number">
+        <input type="text" name="text-basic" id="text-basic" value="" placeholder="MM/YY">
+        <input type="text" name="text-basic" id="text-basic" value="" placeholder="CVC">
+        <a href="#confirm" class="ui-btn" data-transition="pop">Confirm</a>
+    </div>
+
+</div>
+<!-- /Payment -->
+
+<!-- Confirm -->
+<div data-role="dialog" id="confirm">
+
+    <div data-role="header" role="banner" class="ui-header ui-bar-a">
+    	<h1 class="ui-title" role="heading" aria-level="1">Payment</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+    	<p>Thank you for using our service</p>
+        <a href="calendar.html" class="ui-btn" data-transition="pop" rel="external">Continue</a>
+    </div>
+
+</div>
+<!-- /Confirm -->
+
+<!-- Review -->
+<div data-role="dialog" id="review">
+
+    <div data-role="header" role="banner" class="ui-header ui-bar-a">
+    	<h1 class="ui-title" role="heading" aria-level="1">Review</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+    	<p>Thank you for submitting a review, your identity will remain anonymous</p>
+        <a href="#tutor" class="ui-btn" data-transition="pop" rel="external">Continue</a>
+    </div>
+
+</div>
+<!-- /Review -->
+
+</body>
+</html>

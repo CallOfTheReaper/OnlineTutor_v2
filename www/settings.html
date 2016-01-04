@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<link rel="stylesheet" href="css/mystyle.css">
+
+<title>Online Tutor</title>
+</head>
+
+<body>
+
+
+<!-- Settings -->
+<div data-role="page" id="settings">
+
+<!-- Header -->
+<div data-role="header" data-id="head1" style="overflow:hidden;">
+    <h1><img src="imgs/logo.png" width="100px"></h1>
+</div>
+<!-- /Header -->
+
+<div role="main" class="ui-content">
+
+<ul data-role="listview" data-filter="false" data-inset="true">
+    <li><a href="#soon">Settings</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+    <li><a href="#soon">About Us</a></li>
+    <li><a href="#logout">Logout</a></li>
+</ul>
+
+</div>
+
+
+
+
+<!--Navigation-->
+<div data-role="footer" data-position="fixed" data-id="nav1" class="myfooter" data-tap-toggle="false">
+    <div data-role="navbar">
+        <div class="mynav">
+            <div><a href="index.html" rel="external"><img src="imgs/icons/books.png"></a></div>
+            <div><a href="calendar.html" rel="external"><img src="imgs/icons/calendar.png"></a></div>
+            <div><a href="account.html" rel="external"><img src="imgs/icons/user.png"></a></div>
+            <div><a href="settings.html" rel="external"><img src="imgs/icons/settings_a.png"></a></div>
+        </div>
+    </div>
+</div>
+<!--/Navigation-->
+
+</div>
+<!-- /Settings -->
+
+<!-- Contact Us -->
+<div data-role="page" id="contact">
+
+<!-- Header -->
+<div data-role="header" data-id="head1" style="overflow:hidden;">
+    <h1><img src="imgs/logo.png" width="100px"></h1>
+    <a href="#" data-icon="back" data-iconpos="notext" class="ui-btn-left" data-rel="back"></a>
+</div>
+<!-- /Header -->
+
+<div role="main" class="ui-content">
+
+<div id="three" class="ui-body-d ui-content">
+	<h4>You can stay in touch with us by following us in these social media pages:</h4>
+    <div data-role="navbar">
+        <div class="mynav mysoc">
+            <div><a href="#soon"><img src="imgs/icons/fb.JPG"></a></div>
+            <div><a href="#soon"><img src="imgs/icons/t.JPG"></a></div>
+            <div><a href="#soon"><img src="imgs/icons/i.JPG"></a></div>
+        </div>
+    </div>
+    <h4>Or you can send us a message directly:</h4>
+    <form>
+        <input type="text" name="text-basic" id="text-basic" value="" placeholder="Subject">
+        <textarea name="textarea-1" id="textarea-1" placeholder="Message"></textarea>
+    </form>
+    <a href="#message" class="ui-btn" data-transition="pop">Send Message</a>
+</div>
+
+</div>
+
+<!--Navigation-->
+<div data-role="footer" data-position="fixed" data-id="nav1" class="myfooter" data-tap-toggle="false">
+    <div data-role="navbar">
+        <div class="mynav">
+            <div><a href="index.html" rel="external"><img src="imgs/icons/books.png"></a></div>
+            <div><a href="calendar.html" rel="external"><img src="imgs/icons/calendar.png"></a></div>
+            <div><a href="account.html" rel="external"><img src="imgs/icons/user.png"></a></div>
+            <div><a href="settings.html" rel="external"><img src="imgs/icons/settings.png"></a></div>
+        </div>
+    </div>
+</div>
+<!--/Navigation-->
+
+</div>
+<!-- /Contact Us -->
+
+<!-- Logout -->
+<div data-role="dialog" id="logout">
+
+    <div data-role="header" role="banner" class="ui-header ui-bar-a">
+    	<h1 class="ui-title" role="heading" aria-level="1">Logout</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+    	<p>Are you sure you want to log out?</p>
+        <a href="login.html" class="ui-shadow ui-btn ui-corner-all ui-btn-inline" rel="external">Logout</a>
+        <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-inline" data-rel="back">Cancel</a>
+    </div>
+
+</div>
+<!-- /Logout -->
+
+<!-- Logout -->
+<div data-role="dialog" id="soon">
+
+    <div data-role="header" role="banner" class="ui-header ui-bar-a">
+    	<h1 class="ui-title" role="heading" aria-level="1">Sorry :(</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+    	<p>This page currently under construction</p>
+        <a href="login.html" class="ui-shadow ui-btn ui-corner-all ui-btn-inline" data-rel="back">OK</a>
+    </div>
+
+</div>
+<!-- /Logout -->
+
+</body>
+</html>
